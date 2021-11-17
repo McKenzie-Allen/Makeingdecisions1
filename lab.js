@@ -7,6 +7,13 @@
 */
 
 //CODE HERE
+let lovesCode = true
+
+if (lovesCode == true) {
+    console.log("I love to code!")
+} else {
+    console.log("Coding has its challenges.")
+}
 
 // For problems 2-3 use the following lines of code:
 var amysAge = 29
@@ -21,7 +28,13 @@ var brittanisBirthYear = 1986
 */
 
 //CODE HERE
-
+if (amysAge > brittanisAge) {
+    console.log("Amy is older")
+} else if (brittanisAge > amysAge) {
+    console.log("Brittani is older")
+} else {
+    console.log("They are the same age")
+}
 
 ////////// PROBLEM 3 //////////
 
@@ -105,6 +118,6 @@ let passingScore = 7
 ////////// PROBLEM 11 //////////
 
 let z = 5
-// Create a while loop that continues to run while z is greater than 0. Within the while loop, log a countdown from the value of z to 1. Once you have logged the countdown, make sure you decrement z by 1. If your code is running properly, you should see: 5,4,3,2,1,4,3,2,1,3,2,1,2,1,1.
+    // Create a while loop that continues to run while z is greater than 0. Within the while loop, log a countdown from the value of z to 1. Once you have logged the countdown, make sure you decrement z by 1. If your code is running properly, you should see: 5,4,3,2,1,4,3,2,1,3,2,1,2,1,1.
 
 //CODE HERE
