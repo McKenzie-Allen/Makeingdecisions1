@@ -83,7 +83,7 @@ if (temperature < 80 && temperature > 60 && rain == false) {
 */
 
 //CODE HERE
-For(let i = 0; i < 10; i++) {
+for (let i = 0; i < 10; i++) {
     console.log("hello")
 }
 
@@ -94,7 +94,9 @@ For(let i = 0; i < 10; i++) {
 */
 
 //CODE HERE
-
+for (let p = 1; p <= 10; p++) {
+    console.log(p)
+}
 
 ////////// PROBLEM 7 //////////
 
